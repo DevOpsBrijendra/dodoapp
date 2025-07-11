@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg1" {
-  name     = "example-resources"
+  name     = "dodo-resource"
   location = "West Europe"
 }
 resource "azurerm_storage_account" "storage1" {
