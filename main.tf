@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg1" {
-  name     = "example-resources"
-  location = "West Europe"
+  name     = "dodo_resource_group"
+  location = "Central India"
 }
 resource "azurerm_storage_account" "storage1" {
   name                     = "examplestorageaccount"
